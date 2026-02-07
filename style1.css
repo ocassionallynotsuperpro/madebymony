@@ -988,4 +988,25 @@ body {
 }
 .not-loaded * {
   animation-play-state: paused !important;
+
 }/*# sourceMappingURL=style.css.map */
+
+<!-- Test -->
+.night {
+  position: fixed;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  filter: blur(0.1vmin);
+  z-index: -1;
+
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("images.jpeg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
